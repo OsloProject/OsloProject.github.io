@@ -1,0 +1,32 @@
+body {
+    font-family: monospace;
+    line-height: 1.5;
+}
+
+a, a:visited, a:hover, a:active {
+  color: black;
+  text-decoration-style: dashed;
+  text-decoration-color: rgba(0,0,0,0.4);
+}
+
+.content {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 25px;
+}
+
+@media only screen and (min-width: 700px) {
+  .content {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .content {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
