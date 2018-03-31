@@ -9,6 +9,12 @@ a, a:visited, a:hover, a:active {
   text-decoration-color: rgba(0,0,0,0.4);
 }
 
+.projectPhase {
+  margin-bottom: 75px;
+  padding-left: 15px;
+  border-left: 8px solid rgba(0,0,0,0.2);
+}
+
 .content {
   margin-right: 10px;
   margin-left: 10px;
@@ -29,4 +35,12 @@ a, a:visited, a:hover, a:active {
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+.headerimage {
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block;
 }
